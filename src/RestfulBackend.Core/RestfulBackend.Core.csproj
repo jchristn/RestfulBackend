@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\joelc\.nuget\packages\inputty\1.0.5\contentFiles\any\net6.0\Assets\icon.ico" />
+    <Content Remove="C:\Users\joelc\.nuget\packages\timestamps\1.0.0\contentFiles\any\net6.0\Assets\logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Inputty" Version="1.0.5" />
+    <PackageReference Include="SyslogLogging" Version="2.0.1.8" />
+    <PackageReference Include="System.Text.Json" Version="7.0.2" />
+    <PackageReference Include="Timestamps" Version="1.0.0" />
+    <PackageReference Include="WatsonORM" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>
